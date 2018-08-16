@@ -8,7 +8,7 @@
 
   <license>TODO</license>
 
-  <!-- <url type="website">http://wiki.ros.org/gazebo_factory_world</url> -->
+  <url type="website">https://aisl-serv6.aisl.cs.tut.ac.jp:20443/fujimoto/gazebo_factory_world</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>gazebo_ros</exec_depend>
