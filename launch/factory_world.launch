@@ -2,7 +2,6 @@
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <env name="GAZEBO_MODEL_PATH" value="$(find gazebo_factory_world)/models:$(optenv GAZEBO_MODEL_PATH)"/>
 
-    <arg name="use_sim_time" value="false"/> 
     <arg name="world_name" value="$(find gazebo_factory_world)/worlds/factory.world"/>
     <arg name="verbose" default="true"/>
   </include>
