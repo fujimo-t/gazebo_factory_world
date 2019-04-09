@@ -1,4 +1,4 @@
-# gazebo_facotry_world
+# gazebo_factory_world
 
 Factory world for Gazebo based on ARIAC 2017 models
 
