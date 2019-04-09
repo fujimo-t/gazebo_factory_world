@@ -668,46 +668,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='drc_practice_organge_jersey_barrier'>
-        <pose frame=''>18.1131 13.6016 0 0 0 -0.004177</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>18.1131 13.6016 0 0 0 -0.004177</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='drc_practice_organge_jersey_barrier_clone'>
-        <pose frame=''>10.5564 16.8732 0 0 -0 0.457372</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>10.5564 16.8732 0 0 -0 0.457372</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='drc_practice_white_jersey_barrier'>
-        <pose frame=''>16.0079 15.5594 0 0 -0 1.5708</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>16.0079 15.5594 0 0 -0 1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='drc_practice_white_jersey_barrier_clone'>
-        <pose frame=''>8.94394 17.4611 0 0 -0 1.5708</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>8.94394 17.4611 0 0 -0 1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='fire_hydrant'>
         <pose frame=''>1.3074 12.5413 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -723,16 +683,6 @@
         <scale>1 1 1</scale>
         <link name='link'>
           <pose frame=''>0.515535 15.5943 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='nist_elevated_floor_120'>
-        <pose frame=''>17.0241 9.91178 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='nist_elevated_floor_120'>
-          <pose frame=''>17.0241 9.91178 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -5440,45 +5390,6 @@
       </link>
       <pose frame=''>9.44056 18.178 0 0 -0 0</pose>
     </model>
-    <model name='nist_elevated_floor_120'>
-      <static>1</static>
-      <link name='nist_elevated_floor_120'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://nist_elevated_floor_120/meshes/nist_elevated_floor_120.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://nist_elevated_floor_120/meshes/nist_elevated_floor_120.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose frame=''>17.0241 9.91178 0 0 -0 0</pose>
-    </model>
     <model name='populate_conveyor|part4_clone_0_1'>
       <pose frame=''>-16.5 -3 2.1 0 -0 0</pose>
       <link name='part4::link_1'>
@@ -7127,82 +7038,6 @@
       </link>
       <pose frame=''>3.17956 12.5482 0 0 -0 0</pose>
     </model>
-    <model name='drc_practice_organge_jersey_barrier'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose frame=''>15.6278 15.206 0 0 -0 0</pose>
-    </model>
-    <model name='drc_practice_white_jersey_barrier'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose frame=''>15.6131 14.5902 0 0 -0 0</pose>
-    </model>
     <model name='fire_hydrant'>
       <static>1</static>
       <link name='link'>
@@ -7517,82 +7352,6 @@
         <gravity>1</gravity>
       </link>
       <pose frame=''>18.257 4.79217 0 0 -0 1.57117</pose>
-    </model>
-    <model name='drc_practice_organge_jersey_barrier_clone'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose frame=''>10.5564 16.8732 -0 0 0 -0.004177</pose>
-    </model>
-    <model name='drc_practice_white_jersey_barrier_clone'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose frame=''>8.94394 17.4611 0 0 -0 1.5708</pose>
     </model>
     <model name='populate_conveyor|part4_clone_0_2'>
       <pose frame=''>-16.5 -3 2.1 0 -0 0</pose>
